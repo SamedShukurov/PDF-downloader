@@ -11,7 +11,6 @@ fetch("db.json")
             href="${item.url}"
             download
             >${item.name}</a
-        
         >
     </li>`;
         })
