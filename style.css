@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: crimson;
+    list-style: none;
+}
+header{
+    width: 90%;
+    margin: 0 auto;
+    height: 80px;
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    gap: 20px;
+
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.data > li {
+    list-style:decimal;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+}
