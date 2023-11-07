@@ -9,7 +9,7 @@ fetch("db.json")
         <a
             title="download"
             href="${item.url}"
-            download="${item.url}"
+            download="${item.name}"
             >${item.name}</a
         
         >
